@@ -242,11 +242,11 @@ public class DBHelper
                 CopyDataBaseFromAsset();
             }
         } catch (Exception e) {
-            System.out.println("Error in saveBookmark");
+            System.out.println("Error in searchTeluguSong");
         }
         ArrayList localArrayList = new ArrayList();
-        Cursor localCursor = getReadableDatabase().rawQuery("SELECT title_telugu,title_english FROM telugusongs where  " +
-                "title_telugu like '%"+word+"%'", null);
+        Cursor localCursor = getReadableDatabase().rawQuery("SELECT title_telugu,title_eglish FROM telugusongs where  " +
+                "(title_telugu like '%"+word+"%' or title_eglish like '%"+word+"%')", null);
         while (localCursor.moveToNext()) {
             localArrayList.add(localCursor.getString(0)+"#"+localCursor.getString(1));
         }

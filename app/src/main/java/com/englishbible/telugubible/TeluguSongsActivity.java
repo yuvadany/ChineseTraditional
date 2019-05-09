@@ -150,7 +150,7 @@ public class TeluguSongsActivity extends  AppCompatActivity {
                 try {
                     //  SongsActivity.this.dbhelper.openDataBase();
                     /*   dbhelper.openDataBase();                   */
-                    songsList = dbhelper.searchSong(paramAnonymousString);
+                    songsList = dbhelper.searchTeluguSong(paramAnonymousString);
                 } catch (Exception localException) {
                     Log.d("Db Open issue ", localException.getMessage());
                 }
@@ -181,6 +181,8 @@ public class TeluguSongsActivity extends  AppCompatActivity {
                         String song = ((TextView) view).getText().toString();
                         //Toast.makeText(getBaseContext(), story, Toast.LENGTH_LONG).show();
                         Intent localIntent = new Intent(TeluguSongsActivity.this, LyricsActivity.class);
+                        int numberHash = song.indexOf("#");
+                        song = song.substring(0,numberHash);
                         localBundle.putString("title", song);
                         String lyrics = dbhelper.getTeluguLyrics(song);
                         localBundle.putString("lyrics", lyrics);

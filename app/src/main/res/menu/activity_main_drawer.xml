@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Sinhala-English Holy Bible">
+    <item android:title="పవిత్ర బైబిల్-Holy Bible">
         <menu>
             <item
                 android:id="@+id/settings"
@@ -19,6 +19,10 @@
                 android:id="@+id/vod"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Today's Verse "  />
+			<item
+                android:id="@+id/Telugusongs"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Telugu Songs(1100+)"  />
             <item
                 android:id="@+id/songs"
                 android:icon="@drawable/ic_menu_send"

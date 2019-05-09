@@ -1,4 +1,4 @@
-package bible.englishbible.Sinhalabible;
+package com.englishbible.Sinhalabible;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

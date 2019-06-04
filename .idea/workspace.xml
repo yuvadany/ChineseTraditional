@@ -10,6 +10,1197 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20324bab-8fd6-41a8-a6e2-52d5b1a08684" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/NotesActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_notes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_10_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_11_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_12_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_13_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_14_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_15_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_15_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_15_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_15_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_15_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_15_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_15_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_15_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_15_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_15_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_16_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_16_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_16_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_16_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_16_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_16_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_16_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_16_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_16_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_16_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_16_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_16_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_16_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_17_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_17_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_17_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_17_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_17_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_17_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_17_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_17_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_17_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_17_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_38.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_39.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_40.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_41.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_42.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_18_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_100.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_101.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_102.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_103.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_104.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_105.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_106.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_107.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_108.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_109.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_110.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_111.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_112.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_113.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_114.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_115.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_116.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_117.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_118.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_119.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_120.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_121.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_122.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_123.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_124.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_125.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_126.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_127.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_128.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_129.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_130.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_131.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_132.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_133.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_134.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_135.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_136.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_137.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_138.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_139.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_140.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_141.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_142.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_143.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_144.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_145.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_146.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_147.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_148.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_149.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_150.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_38.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_39.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_40.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_41.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_42.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_43.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_44.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_45.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_46.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_47.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_48.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_49.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_50.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_51.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_52.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_53.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_54.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_55.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_56.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_57.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_58.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_59.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_60.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_61.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_62.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_63.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_64.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_65.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_66.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_67.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_68.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_69.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_70.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_71.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_72.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_73.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_74.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_75.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_76.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_77.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_78.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_79.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_80.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_81.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_82.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_83.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_84.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_85.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_86.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_87.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_88.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_89.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_90.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_91.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_92.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_93.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_94.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_95.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_96.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_97.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_98.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_19_99.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_38.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_39.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_40.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_41.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_42.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_43.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_44.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_45.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_46.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_47.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_48.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_49.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_50.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_1_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_20_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_21_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_21_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_21_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_21_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_21_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_21_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_21_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_21_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_21_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_21_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_21_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_21_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_22_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_22_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_22_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_22_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_22_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_22_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_22_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_22_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_38.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_39.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_40.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_41.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_42.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_43.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_44.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_45.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_46.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_47.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_48.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_49.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_50.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_51.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_52.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_53.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_54.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_55.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_56.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_57.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_58.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_59.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_60.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_61.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_62.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_63.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_64.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_65.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_66.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_23_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_38.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_39.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_40.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_41.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_42.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_43.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_44.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_45.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_46.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_47.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_48.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_49.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_50.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_51.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_52.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_24_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_25_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_25_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_25_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_25_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_25_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_38.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_39.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_40.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_41.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_42.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_43.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_44.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_45.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_46.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_47.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_48.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_26_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_27_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_27_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_27_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_27_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_27_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_27_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_27_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_27_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_27_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_27_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_27_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_27_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_28_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_29_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_29_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_29_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_38.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_39.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_40.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_2_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_30_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_30_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_30_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_30_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_30_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_30_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_30_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_30_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_30_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_31_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_32_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_32_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_32_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_32_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_33_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_33_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_33_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_33_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_33_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_33_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_33_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_34_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_34_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_34_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_35_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_35_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_35_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_36_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_36_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_36_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_37_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_37_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_38_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_39_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_39_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_39_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_39_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_3_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_40_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_41_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_42_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_43_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_44_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_45_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_46_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_47_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_47_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_47_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_47_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_47_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_47_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_47_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_47_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_47_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_47_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_47_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_47_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_47_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_48_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_48_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_48_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_48_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_48_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_48_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_49_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_49_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_49_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_49_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_49_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_49_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_4_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_50_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_50_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_50_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_50_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_51_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_51_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_51_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_51_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_52_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_52_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_52_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_52_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_52_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_53_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_53_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_53_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_54_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_54_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_54_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_54_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_54_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_54_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_55_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_55_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_55_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_55_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_56_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_56_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_56_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_57_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_58_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_58_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_58_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_58_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_58_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_58_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_58_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_58_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_58_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_58_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_58_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_58_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_58_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_59_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_59_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_59_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_59_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_59_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_5_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_60_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_60_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_60_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_60_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_60_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_61_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_61_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_61_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_62_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_62_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_62_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_62_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_62_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_63_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_64_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_65_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_66_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_6_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_7_9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_8_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_8_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_8_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_8_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/kjv_9_9.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -18,14 +1209,42 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_11_8_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_11_8_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_11_8_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_11_8_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_11_8_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_11_8_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_11_8_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_11_8_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/DBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/DBHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/TeluguSongsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/TeluguSongsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/dailyverseTeluguEnglish1.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/dailyverseTeluguEnglish1.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/BookmarkActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/BookmarkActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/SettingsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/SettingsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_bookmark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_bookmark.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/many_options.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/many_options.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,12 +1265,33 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.praises</find>
-      <find>Luganda</find>
       <find>na_</find>
       <find>dailyversefrench1</find>
       <find>praises_text.setText(praises);</find>
@@ -66,7 +1306,6 @@
       <find>deve</find>
       <find>extra</find>
       <find>cebuano</find>
-      <find>niv_</find>
       <find>lug_</find>
       <find>ceb_</find>
       <find>true</find>
@@ -79,6 +1318,10 @@
       <find>error</find>
       <find>title_eglish</find>
       <find>searchSong</find>
+      <find>bookmark</find>
+      <find>.notes</find>
+      <find>niv_</find>
+      <find>fabshare</find>
     </findStrings>
     <replaceStrings>
       <replace>lug_</replace>
@@ -103,8 +1346,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_bookmark.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/lugandabible/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/build.gradle" />
@@ -129,22 +1370,29 @@
         <option value="E:/Cebuano/Cebuano/app/src/main/res/values/strings.xml" />
         <option value="E:/Cebuano/Cebuano/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/DBHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/BooksChapters.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_songs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_telugu_songs.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/DBHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/TeluguSongsActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/many_options.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_bookmark.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/BookmarkActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_notes.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/NotesActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/SettingsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/MainActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="28" />
     <option name="y" value="26" />
     <option name="width" value="1346" />
@@ -156,6 +1404,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -163,54 +1414,10 @@
               <item name="Telugu" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
-            <path>
-              <item name="Telugu" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Telugu" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Telugu" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="englishbible" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Telugu" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="englishbible" type="462c0819:PsiDirectoryNode" />
-              <item name="telugubible" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Telugu" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="Telugu" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="Telugu" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,7 +1426,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="Android_8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="E:/Hebrew/Hebrew" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kannada" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="sync.plugin.last.upgrade.timestamp" value="1556683425117" />
   </component>
@@ -333,15 +1540,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
-      <window_info id="Build Variants" order="4" sideWeight="0.393531" side_tool="true" visible="true" weight="0.24281392" />
+      <window_info id="Build Variants" order="4" sideWeight="0.39892185" side_tool="true" weight="0.24281392" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Resources Explorer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.606469" visible="true" weight="0.24281392" />
+      <window_info id="Resources Explorer" order="6" weight="0.32980332" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.60107815" visible="true" weight="0.24281392" />
       <window_info id="Captures" order="8" sideWeight="0.5017007" side_tool="true" weight="0.25037822" />
       <window_info anchor="bottom" id="Find" order="0" weight="0.32993197" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.088435374" />
@@ -350,7 +1558,7 @@
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32993197" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.3690476" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.24319728" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Run" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -365,20 +1573,20 @@
       <window_info id="Image Layers" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
-      <window_info id="Build Variants" order="4" sideWeight="0.5102564" side_tool="true" weight="0.25037822" />
+      <window_info id="Build Variants" order="4" sideWeight="0.39892185" side_tool="true" weight="0.24281392" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Resources Explorer" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.4897436" visible="true" weight="0.24281392" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.60107815" visible="true" weight="0.24281392" />
       <window_info id="Captures" order="8" sideWeight="0.5017007" side_tool="true" weight="0.25037822" />
       <window_info anchor="bottom" id="Find" order="0" weight="0.32993197" />
-      <window_info anchor="bottom" id="Logcat" order="1" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.088435374" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32993197" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32993197" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.33673468" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.24319728" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" />
@@ -429,120 +1637,53 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bookmark.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding>
-            <element signature="e#386#421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_lyrics.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
           <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_praises.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml">
       <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-73">
           <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/notes_popup.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-124">
           <caret line="13" column="69" lean-forward="true" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sharesearch.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192">
           <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/versepopup.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/bookmark_menu.xml">
       <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/many_options.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -562,7 +1703,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1005">
           <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
@@ -571,14 +1711,9 @@
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/LyricsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/LyricsActivity.java" />
     <entry file="file://E:/Cebuano/Cebuano/app/src/main/res/values/strings.xml" />
     <entry file="file://E:/Cebuano/Cebuano/app/src/main/AndroidManifest.xml" />
     <entry file="file://E:/Cebuano/Cebuano/app/build.gradle" />
@@ -589,65 +1724,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/horizontal.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/BooksChapters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2516">
-          <caret line="149" column="46" lean-forward="true" selection-start-line="149" selection-start-column="46" selection-end-line="149" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/BookmarkActivity.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/SettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/na_10_1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1683">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#44876#44919#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <element signature="e#338#356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/DBHelper.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/BooksChapters.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/BookmarkActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/SettingsActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/Sinhalabible/MainActivity.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -656,7 +1740,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_telugu_songs.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
@@ -669,22 +1752,15 @@
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_songs.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="10" selection-end-column="62" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
       <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/SongsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -717,16 +1793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="94" column="57" lean-forward="true" selection-start-line="94" selection-start-column="57" selection-end-line="94" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -736,8 +1802,132 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/many_options.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/bookmark_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="e#338#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/NotesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="57" lean-forward="true" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bookmark.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/BookmarkActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="115" column="23" lean-forward="true" selection-start-line="108" selection-start-column="3" selection-end-line="115" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_notes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="e#328#361#0" expanded="true" />
+            <element signature="e#386#421#0" expanded="true" />
+            <element signature="e#447#482#0" expanded="true" />
+            <element signature="e#506#539#0" expanded="true" />
+            <element signature="e#1021#1049#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="103" column="46" lean-forward="true" selection-start-line="103" selection-start-column="46" selection-end-line="103" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="158" column="11" selection-start-line="158" selection-start-column="11" selection-end-line="158" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/na_10_1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

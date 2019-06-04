@@ -44,12 +44,12 @@ public class BookmarkActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bookmark);
         setTitle("Bookmarks");
-        ListView notesListView;
+        ListView bookmarkListView;
         try
         {
             this.dbhelper.openDataBase();
             arrayOfString = dbhelper.getAllBookmarks();
-            notesListView = (ListView)findViewById(R.id.noteslist);
+            bookmarkListView = (ListView)findViewById(R.id.bokmarkList);
             localArrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayOfString){
                 @Override
                 public View getView(int position, View convertView, ViewGroup parent) {
@@ -65,8 +65,8 @@ public class BookmarkActivity extends AppCompatActivity {
                     return view;
                 }
             };
-            notesListView.setAdapter(localArrayAdapter);
-            registerForContextMenu(notesListView);
+            bookmarkListView.setAdapter(localArrayAdapter);
+            registerForContextMenu(bookmarkListView);
         }catch (Exception localException) {
             System.out.println("Error...  # " + localException.getMessage());
         }

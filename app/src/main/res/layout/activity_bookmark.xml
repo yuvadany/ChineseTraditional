@@ -11,7 +11,7 @@
     tools:context=".BookmarkActivity">
 
     <ListView
-        android:id="@+id/noteslist"
+        android:id="@+id/bokmarkList"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="50.0dip" />

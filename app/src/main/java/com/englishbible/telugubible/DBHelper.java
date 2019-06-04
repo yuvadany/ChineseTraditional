@@ -22,7 +22,7 @@ import java.util.Date;
 public class DBHelper
         extends SQLiteOpenHelper
 {
-    private static final String DATABASE_NAME = "dailyverseTeluguEnglish1.sqlite";
+    private static final String DATABASE_NAME = "dailyverseTeluguEnglish2.sqlite";
     private static final int DATABASE_VERSION = 1;
     private static final String DB_PATH_SUFFIX = "/databases/";
     static Context ctx;
@@ -307,7 +307,7 @@ public class DBHelper
             System.out.println("Error in saveBookmark");
         }
         ArrayList localArrayList = new ArrayList();
-        Cursor localCursor = getReadableDatabase().rawQuery("SELECT VERSE,DATE FROM BOOKMARK order by DATE desc", null);
+        Cursor localCursor = getReadableDatabase().rawQuery("SELECT VERSE,DATE FROM BOOKMARK order by id desc", null);
         while (localCursor.moveToNext()) {
             localArrayList.add(localCursor.getString(1) + "# \n" + localCursor.getString(0));
         }

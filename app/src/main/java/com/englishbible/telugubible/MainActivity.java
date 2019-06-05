@@ -117,6 +117,7 @@ public class MainActivity extends AppCompatActivity
     public static final String extraSubject = "The Holy Bible Telugu & English Bible Parallel";
     public static final String extraText = "\nHi,\n Check on this Holy Bible Telugu & English Parallel App\n\n" + app_url + " \n\n";
     public static final String bibleShare = "Telugu & English Bible Share";
+    public static final String pay_app_url = "https://play.google.com/store/apps/details?id=noads.englishbible.telugubible";
 
 
     @Override
@@ -634,6 +635,7 @@ public class MainActivity extends AppCompatActivity
             }
         } else if (item.getItemId() == R.id.bookmark) {
             dbhelper.saveBookmark(sharedpreferences.getString(BOOK_NAME, "Genesis") + sharedpreferences.getString(CHAPTER_NUMBER_BOOKMARK, "1") + " : " + sharedpreferences.getString(SELECTED_VERSE, "Holy"));
+            Toast.makeText(MainActivity.this, "Bookmarked", Toast.LENGTH_LONG).show();
         } else if (item.getItemId() == R.id.notes) {
             startActivity(new Intent(this, NotesActivity.class));
         }
@@ -838,6 +840,12 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.praises) {
             startActivity(new Intent(this, PraisesActivity.class));
+        }else if (id == R.id.notes) {
+            startActivity(new Intent(this, NotesActivity.class));
+        }  else if (id == R.id.noAds) {
+            Intent intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(pay_app_url));
+            startActivity(intent);
         } else if (id == R.id.vod) {
             try {
                 Calendar cal = Calendar.getInstance();

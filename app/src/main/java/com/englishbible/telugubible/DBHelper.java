@@ -25,6 +25,11 @@ public class DBHelper
     private static final String DATABASE_NAME = "dailyverseTeluguEnglish2.sqlite";
     private static final int DATABASE_VERSION = 1;
     private static final String DB_PATH_SUFFIX = "/databases/";
+    private static final String DATE = "date";
+    private static final String ID = "id";
+    private static final String NOTES_TABLE = "notes";
+    private static final String NOTES_TITLE = "notes_title";
+    private static final String NOTES_MESSAGE = "notes_message";
     static Context ctx;
     Bundle bundle = new Bundle();
 
@@ -45,6 +50,7 @@ public class DBHelper
         InputStream localInputStream = ctx.getAssets().open(DATABASE_NAME);
         String str = getDatabasePath();
         File localFile = new File(ctx.getApplicationInfo().dataDir + "/databases/");
+
         if (!localFile.exists()) {
             localFile.mkdir();
         }
@@ -304,7 +310,7 @@ public class DBHelper
                 CopyDataBaseFromAsset();
             }
         } catch (Exception e) {
-            System.out.println("Error in saveBookmark");
+            System.out.println("Error in getAllBookmarks");
         }
         ArrayList localArrayList = new ArrayList();
         Cursor localCursor = getReadableDatabase().rawQuery("SELECT VERSE,DATE FROM BOOKMARK order by id desc", null);
@@ -328,10 +334,67 @@ public class DBHelper
             getWritableDatabase().delete("bookmark", whereClause, new String[]{selectedBookmark});
             getWritableDatabase().close();
         } catch (Exception exception) {
+            Log.i("myTag", "deleteBookmark Exception #  " + exception);
+        }
+    }
+
+    public void saveNote(String title, String message) {
+        File localFile = ctx.getDatabasePath(DATABASE_NAME);
+        try {
+            if (!localFile.exists()) {
+                CopyDataBaseFromAsset();
+            }
+        } catch (Exception e) {
+            System.out.println("Error in saveNote");
+        }
+        //Log.i("myTag", "This is my message word" + word);
+        ArrayList localArrayList = new ArrayList();
+        ContentValues localContentValues = new ContentValues();
+        localContentValues.put(NOTES_TITLE, title);
+        localContentValues.put(NOTES_MESSAGE, message);
+        localContentValues.put(DATE, getCurrentDate());
+        try {
+            getWritableDatabase().insertOrThrow(NOTES_TABLE, null, localContentValues);
+            getWritableDatabase().close();
+        } catch (Exception exception) {
             Log.i("myTag", "saveBookmark Exception #  " + exception);
         }
     }
 
+    public String[] getAllNotes() {
+        File localFile = ctx.getDatabasePath(DATABASE_NAME);
+        try {
+            if (!localFile.exists()) {
+                CopyDataBaseFromAsset();
+            }
+        } catch (Exception e) {
+            System.out.println("Error in getAllNotes");
+        }
+        ArrayList localArrayList = new ArrayList();
+        Cursor localCursor = getReadableDatabase().rawQuery("SELECT date,notes_title FROM notes order by id desc", null);
+        while (localCursor.moveToNext()) {
+            localArrayList.add(localCursor.getString(0) + "# \n" + localCursor.getString(1));
+        }
+        return (String[]) localArrayList.toArray(new String[localArrayList.size()]);
+    }
+
+    public void deleteNote(String noteTitle) {
+        File localFile = ctx.getDatabasePath(DATABASE_NAME);
+        String whereClause = "verse=?";
+        try {
+            if (!localFile.exists()) {
+                CopyDataBaseFromAsset();
+            }
+        } catch (Exception e) {
+            System.out.println("Error in deleteNote");
+        }
+        try {
+            getWritableDatabase().delete(NOTES_TABLE, whereClause, new String[]{noteTitle});
+            getWritableDatabase().close();
+        } catch (Exception exception) {
+            Log.i("myTag", "deleteNote Exception #  " + exception);
+        }
+    }
     public String getCurrentDate() {
         Date date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("MMM-dd-yyyy HH:mm:ss");

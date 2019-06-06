@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity
     Bundle bundle = new Bundle();
     ScrollView englishview;
     private Animation fab_open, fab_close, rotate_forward, rotate_backward;
-    private FloatingActionButton fabShare, fab1, fab2, fab3, fab4;
+    private FloatingActionButton fabShare, addNotes, fab1, fab2, fab3, fab4;
     private Boolean isFabOpen = false;
     BooksChapters chapters = new BooksChapters();
     String defaulthint = "Search here";
@@ -167,6 +167,17 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 try {
                     startActivity(new Intent(view.getContext(), SettingsActivity.class));
+                } catch (Exception e) {
+
+                }
+            }
+        });
+        addNotes = (FloatingActionButton) findViewById(R.id.addNotes);
+        addNotes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    startActivity(new Intent(view.getContext(), AddNotesActivity.class));
                 } catch (Exception e) {
 
                 }
@@ -840,9 +851,9 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.praises) {
             startActivity(new Intent(this, PraisesActivity.class));
-        }else if (id == R.id.notes) {
+        } else if (id == R.id.notes) {
             startActivity(new Intent(this, NotesActivity.class));
-        }  else if (id == R.id.noAds) {
+        } else if (id == R.id.noAds) {
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(pay_app_url));
             startActivity(intent);
@@ -892,7 +903,7 @@ public class MainActivity extends AppCompatActivity
         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         String verses = "Not Found";
         StringBuffer sb = new StringBuffer();
-        String file = englishBible_file+"1_1";
+        String file = englishBible_file + "1_1";
         String[] words = new String[2];
 
         int id = 1;

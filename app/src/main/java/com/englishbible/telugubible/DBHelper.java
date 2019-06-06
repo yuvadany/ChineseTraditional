@@ -22,7 +22,7 @@ import java.util.Date;
 public class DBHelper
         extends SQLiteOpenHelper
 {
-    private static final String DATABASE_NAME = "dailyverseTeluguEnglish2.sqlite";
+    private static final String DATABASE_NAME = "dailyverseTeluguEnglish3.sqlite";
     private static final int DATABASE_VERSION = 1;
     private static final String DB_PATH_SUFFIX = "/databases/";
     private static final String DATE = "date";
@@ -347,7 +347,6 @@ public class DBHelper
         } catch (Exception e) {
             System.out.println("Error in saveNote");
         }
-        //Log.i("myTag", "This is my message word" + word);
         ArrayList localArrayList = new ArrayList();
         ContentValues localContentValues = new ContentValues();
         localContentValues.put(NOTES_TITLE, title);
@@ -357,7 +356,7 @@ public class DBHelper
             getWritableDatabase().insertOrThrow(NOTES_TABLE, null, localContentValues);
             getWritableDatabase().close();
         } catch (Exception exception) {
-            Log.i("myTag", "saveBookmark Exception #  " + exception);
+          //  Log.i("myTag", "saveNote Exception #  " + exception);
         }
     }
 
@@ -371,12 +370,14 @@ public class DBHelper
             System.out.println("Error in getAllNotes");
         }
         ArrayList localArrayList = new ArrayList();
-        Cursor localCursor = getReadableDatabase().rawQuery("SELECT date,notes_title FROM notes order by id desc", null);
+        Cursor localCursor = getReadableDatabase().rawQuery("SELECT id,date,notes_title FROM notes order by id desc", null);
         while (localCursor.moveToNext()) {
-            localArrayList.add(localCursor.getString(0) + "# \n" + localCursor.getString(1));
+            localArrayList.add(localCursor.getString(0) + ". " + localCursor.getString(1)+ "# \n" + localCursor.getString(2));
+            Log.i("getAllNotes", "getAllNotes #  " +localCursor.getString(0));
         }
         return (String[]) localArrayList.toArray(new String[localArrayList.size()]);
     }
+
 
     public void deleteNote(String noteTitle) {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);

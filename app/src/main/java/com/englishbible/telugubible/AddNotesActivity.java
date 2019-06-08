@@ -16,7 +16,8 @@ public class AddNotesActivity extends AppCompatActivity {
     String title = "holy";
     String message = "message";
     EditText titleEdit, messageEdit;
-    String errorMessage = "Please type title and message";
+    String titleError = "Please type title";
+    String messageError = "Please type message";
     String successMessage = "Notes added";
 
     @Override
@@ -38,14 +39,14 @@ public class AddNotesActivity extends AppCompatActivity {
             public void onClick(View view) {
                 title = String.valueOf(titleEdit.getText()).trim();
                 message = String.valueOf(messageEdit.getText()).trim();
-                if ( 0 <  title.length() && 0 < message.length() ) {
+                if (0 < title.length() && 0 < message.length()) {
                     dbhelper.saveNote(title, message);
                     Toast.makeText(getApplicationContext(), successMessage, Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(AddNotesActivity.this, NotesActivity.class));
                 } else {
-                    Toast.makeText(getApplicationContext(), errorMessage, Toast.LENGTH_SHORT).show();
+                        titleEdit.setError(titleError);
+                        messageEdit.setError(messageError);
                 }
-
             }
 
         });

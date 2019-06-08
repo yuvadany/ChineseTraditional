@@ -7,9 +7,12 @@ import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.TypedValue;
+import android.view.ContextMenu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -24,14 +27,18 @@ public class NotesActivity extends AppCompatActivity {
     private Button addNotes;
     DBHelper dbhelper = new DBHelper(this);
     ListView notesListView;
-    String[] notesArray= { "No  Bookmark found" };
-    SharedPreferences sharedpreferences,sharedPreferencesReadMode;
+    String[] notesArray = {"No  Bookmark found"};
+    SharedPreferences sharedpreferences, sharedPreferencesReadMode;
     public static final String SHARED_PREF_FONT_SIZE = "font_size";
     public static final float TEXT_FONT_SIZE = 13;
     public static final String TEXT_FONT_SIZE_VAR = "text_float_size";
     public static final String SHARED_PREF_NIGHT_DAY_MODE = "Night_Day_Mode";
     public static final String TEXT_COLOUR_VAR = "Text_Colour_Var";
     public static final String BACKROUND_COLOUR_VAR = "Background_Colour_Var";
+    public static final String SHARED_PREF_NOTES = "notes_preference";
+    public static final String SELECTED_NOTES = "Selected_Notes";
+    public static final String NOTES_DELETED = "Notes deleted";
+    String header = "";
     public static final int BLACK_COLOUR = Color.parseColor("#000000");
     public static final int WHITE_COLOUR = Color.parseColor("#f2f2f2");
 
@@ -61,6 +68,7 @@ public class NotesActivity extends AppCompatActivity {
                 }
             };
             notesListView.setAdapter(notesAdapter);
+            registerForContextMenu(notesListView);
             // Back button starts
             if (getSupportActionBar() != null) {
                 getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -76,8 +84,7 @@ public class NotesActivity extends AppCompatActivity {
                 }
 
             });
-        }catch(Exception e)
-        {
+        } catch (Exception e) {
 
         }
     }
@@ -90,4 +97,59 @@ public class NotesActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
     // back option ends
+
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.notes_menu, menu);
+        ListView notesList = (ListView) v;
+        AdapterView.AdapterContextMenuInfo acmi = (AdapterView.AdapterContextMenuInfo) menuInfo;
+        String notes = (String) notesList.getItemAtPosition(acmi.position);
+        int numberDot = notes.indexOf(".");
+        notes = notes.substring(0, numberDot);
+        sharedpreferences = getSharedPreferences(SHARED_PREF_NOTES, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedpreferences.edit();
+        editor.putString(SELECTED_NOTES, notes);
+        editor.commit();
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        sharedpreferences = getSharedPreferences(SHARED_PREF_NOTES, Context.MODE_PRIVATE);
+        String notes_selected = sharedpreferences.getString(SELECTED_NOTES, "Holy");
+        if (item.getItemId() == R.id.menu_view_notes) {
+            Toast.makeText(getApplicationContext(), notes_selected, Toast.LENGTH_SHORT).show();
+        }
+        if (item.getItemId() == R.id.menu_share_notes) {
+            try {
+                notes_selected = sharedpreferences.getString(SELECTED_NOTES, "Holy");
+                String input = notes_selected;
+                int number = input.indexOf("#");
+                input = input.substring(number + 1).trim();
+                Intent localIntent = new Intent("android.intent.action.SEND");
+                localIntent.setType("text/plain");
+                localIntent.putExtra("android.intent.extra.SUBJECT", "Message  #");
+                localIntent.putExtra("android.intent.extra.TEXT", input);
+                startActivity(Intent.createChooser(localIntent, header));
+
+            } catch (Exception e) {
+            }
+        }
+        if (item.getItemId() == R.id.menu_delete_notes) {
+            try {
+                dbhelper.deleteNote(notes_selected);
+                finish();
+                overridePendingTransition(0, 0);
+                startActivity(getIntent());
+                overridePendingTransition(0, 0);
+                Toast.makeText(getApplicationContext(), NOTES_DELETED, Toast.LENGTH_SHORT).show();
+            }catch(Exception e)
+            {
+
+            }
+        }
+        return true;
+    }
+
 }

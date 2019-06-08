@@ -379,9 +379,9 @@ public class DBHelper
     }
 
 
-    public void deleteNote(String noteTitle) {
+    public void deleteNote(String id) {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
-        String whereClause = "verse=?";
+        String whereClause = "id=?";
         try {
             if (!localFile.exists()) {
                 CopyDataBaseFromAsset();
@@ -390,7 +390,7 @@ public class DBHelper
             System.out.println("Error in deleteNote");
         }
         try {
-            getWritableDatabase().delete(NOTES_TABLE, whereClause, new String[]{noteTitle});
+            getWritableDatabase().delete(NOTES_TABLE, whereClause, new String[]{id});
             getWritableDatabase().close();
         } catch (Exception exception) {
             Log.i("myTag", "deleteNote Exception #  " + exception);

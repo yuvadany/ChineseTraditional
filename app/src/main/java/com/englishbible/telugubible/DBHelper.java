@@ -373,11 +373,33 @@ public class DBHelper
         Cursor localCursor = getReadableDatabase().rawQuery("SELECT id,date,notes_title FROM notes order by id desc", null);
         while (localCursor.moveToNext()) {
             localArrayList.add(localCursor.getString(0) + ". " + localCursor.getString(1)+ "# \n" + localCursor.getString(2));
-            Log.i("getAllNotes", "getAllNotes #  " +localCursor.getString(0));
+           // Log.i("getAllNotes", "getAllNotes #  " +localCursor.getString(0));
         }
         return (String[]) localArrayList.toArray(new String[localArrayList.size()]);
     }
 
+    public String getNotesById(String id) {
+        File localFile = ctx.getDatabasePath(DATABASE_NAME);
+        ArrayList localArrayList = new ArrayList();
+        String message = "";
+        try {
+            if (!localFile.exists()) {
+                CopyDataBaseFromAsset();
+            }
+        } catch (Exception e) {
+            System.out.println("Error in getNotesById");
+        }
+        try {
+            Cursor localCursor = getReadableDatabase().rawQuery("Select notes_title,notes_message from notes where id ='" + id + "'", null);
+            while (localCursor.moveToNext()) {
+                message = "Title # " +localCursor.getString(0) + "\n Message \n " + localCursor.getString(1);
+            }
+        }catch(Exception e)
+        {
+            Log.i("myTag", "getNotesById Exception#  " + e);
+        }
+        return  message;
+    }
 
     public void deleteNote(String id) {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);

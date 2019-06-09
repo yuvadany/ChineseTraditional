@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.TypedValue;
 import android.view.ContextMenu;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -15,16 +17,22 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.view.ViewGroup.LayoutParams;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 public class NotesActivity extends AppCompatActivity {
-    private Button addNotes;
+    private Button  closePopupBtn;
+    PopupWindow popupWindow;
+    LinearLayout linearLayout1;
+    private TextView notes_text_popup;
     DBHelper dbhelper = new DBHelper(this);
     ListView notesListView;
     String[] notesArray = {"No  Bookmark found"};
@@ -48,7 +56,9 @@ public class NotesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_notes);
         notesListView = (ListView) findViewById(R.id.notesList);
         ArrayAdapter notesAdapter;
-        addNotes = (Button) findViewById(R.id.addNotes);
+        PopupWindow popupWindow;
+        LinearLayout linearLayout1;
+        notes_text_popup = (TextView) findViewById(R.id.notes_text_popup);
         try {
             this.dbhelper.openDataBase();
             notesArray = dbhelper.getAllNotes();
@@ -75,15 +85,6 @@ public class NotesActivity extends AppCompatActivity {
                 getSupportActionBar().setDisplayShowHomeEnabled(true);
             }
             // Back button ends
-
-            addNotes.setOnClickListener(new View.OnClickListener() {
-
-                @Override
-                public void onClick(View view) {
-                    startActivity(new Intent(NotesActivity.this, AddNotesActivity.class));
-                }
-
-            });
         } catch (Exception e) {
 
         }
@@ -118,19 +119,14 @@ public class NotesActivity extends AppCompatActivity {
     public boolean onContextItemSelected(MenuItem item) {
         sharedpreferences = getSharedPreferences(SHARED_PREF_NOTES, Context.MODE_PRIVATE);
         String notes_selected = sharedpreferences.getString(SELECTED_NOTES, "Holy");
-        if (item.getItemId() == R.id.menu_view_notes) {
-            Toast.makeText(getApplicationContext(), notes_selected, Toast.LENGTH_SHORT).show();
-        }
         if (item.getItemId() == R.id.menu_share_notes) {
             try {
-                notes_selected = sharedpreferences.getString(SELECTED_NOTES, "Holy");
-                String input = notes_selected;
-                int number = input.indexOf("#");
-                input = input.substring(number + 1).trim();
+                String message = "Holy God";
+                message = dbhelper.getNotesById(notes_selected);
                 Intent localIntent = new Intent("android.intent.action.SEND");
                 localIntent.setType("text/plain");
                 localIntent.putExtra("android.intent.extra.SUBJECT", "Message  #");
-                localIntent.putExtra("android.intent.extra.TEXT", input);
+                localIntent.putExtra("android.intent.extra.TEXT", message);
                 startActivity(Intent.createChooser(localIntent, header));
 
             } catch (Exception e) {
@@ -144,8 +140,13 @@ public class NotesActivity extends AppCompatActivity {
                 startActivity(getIntent());
                 overridePendingTransition(0, 0);
                 Toast.makeText(getApplicationContext(), NOTES_DELETED, Toast.LENGTH_SHORT).show();
-            }catch(Exception e)
-            {
+            } catch (Exception e) {
+
+            }
+        } if (item.getItemId() == R.id.menu_view_notes) {
+            try {
+                startActivity(new Intent(this, NotesViewActivity.class));
+            } catch (Exception e) {
 
             }
         }

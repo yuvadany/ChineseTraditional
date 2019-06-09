@@ -1022,29 +1022,6 @@ public class MainActivity extends AppCompatActivity
         return 1;
     }
 
-    public void showChangeLangDialog() {
-        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
-        LayoutInflater inflater = this.getLayoutInflater();
-        final View dialogView = inflater.inflate(R.layout.notes_popup, null);
-        dialogBuilder.setView(dialogView);
-
-        final EditText title = (EditText) dialogView.findViewById(R.id.title_notes);
-
-        dialogBuilder.setTitle("Add Notes");
-        dialogBuilder.setPositiveButton("Add", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int whichButton) {
-                //do something with edt.getText().toString();
-            }
-        });
-        dialogBuilder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int whichButton) {
-                //pass
-            }
-        });
-        AlertDialog b = dialogBuilder.create();
-        b.show();
-    }
-
     public String checkChaptersCount(String bookSpinner, String chapterSpinner) {
         String chapterOne = "1";
         int bookNumber = getBook_number(bookSpinner);

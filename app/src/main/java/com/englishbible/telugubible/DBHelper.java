@@ -3,6 +3,7 @@ package com.englishbible.telugubible;
 /**
  * Created by user on 5/15/2018.
  */
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -20,8 +21,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class DBHelper
-        extends SQLiteOpenHelper
-{
+        extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "dailyverseTeluguEnglish3.sqlite";
     private static final int DATABASE_VERSION = 1;
     private static final String DB_PATH_SUFFIX = "/databases/";
@@ -33,20 +33,17 @@ public class DBHelper
     static Context ctx;
     Bundle bundle = new Bundle();
 
-    public DBHelper(Context paramContext)
-    {
+    public DBHelper(Context paramContext) {
         super(paramContext, DATABASE_NAME, null, 1);
         ctx = paramContext;
     }
 
-    private static String getDatabasePath()
-    {
+    private static String getDatabasePath() {
         return ctx.getApplicationInfo().dataDir + "/databases/" + DATABASE_NAME;
     }
 
     public void CopyDataBaseFromAsset()
-            throws IOException
-    {
+            throws IOException {
         InputStream localInputStream = ctx.getAssets().open(DATABASE_NAME);
         String str = getDatabasePath();
         File localFile = new File(ctx.getApplicationInfo().dataDir + "/databases/");
@@ -56,8 +53,7 @@ public class DBHelper
         }
         FileOutputStream localFileOutputStream = new FileOutputStream(str);
         byte[] arrayOfByte = new byte['Ѐ'];
-        for (;;)
-        {
+        for (; ; ) {
             int i = localInputStream.read(arrayOfByte);
             if (i <= 0) {
                 break;
@@ -70,8 +66,7 @@ public class DBHelper
     }
 
 
-    public ArrayList getVerse(int doy)
-    {
+    public ArrayList getVerse(int doy) {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
         try {
             if (!localFile.exists()) {
@@ -83,17 +78,17 @@ public class DBHelper
         int day = doy;
         ArrayList<String> dateAndVerse = new ArrayList<String>();
         String verse = "Amen";
-        Cursor localCursor = getReadableDatabase().rawQuery("SELECT verse,date  FROM verses where id ="+doy, null);
+        Cursor localCursor = getReadableDatabase().rawQuery("SELECT verse,date  FROM verses where id =" + doy, null);
         while (localCursor.moveToNext()) {
-            dateAndVerse.add( localCursor.getString(0));
-            dateAndVerse.add( localCursor.getString(1));
-            System.out.println(dateAndVerse.add( localCursor.getString(0) + " id and Date "
-                    +dateAndVerse.add( localCursor.getString(1))));
+            dateAndVerse.add(localCursor.getString(0));
+            dateAndVerse.add(localCursor.getString(1));
+            System.out.println(dateAndVerse.add(localCursor.getString(0) + " id and Date "
+                    + dateAndVerse.add(localCursor.getString(1))));
         }
-        return  dateAndVerse;
+        return dateAndVerse;
     }
 
-    public boolean updateVersesDate(String doy,String today) {
+    public boolean updateVersesDate(String doy, String today) {
         // openDataBase();
         try {//dailyverseLugandaEnglish1
             File localFile = ctx.getDatabasePath(DATABASE_NAME);
@@ -109,39 +104,36 @@ public class DBHelper
             getWritableDatabase().update("verses", contentValues, "ID = ?", new String[]{doy});
             getWritableDatabase().close();
             return true;
-        }
-        catch(Exception e )
-        {
+        } catch (Exception e) {
             System.out.println("Error in updateVersesDate");
         }
         return true;
     }
 
 
-    public void onCreate(SQLiteDatabase paramSQLiteDatabase) {}
+    public void onCreate(SQLiteDatabase paramSQLiteDatabase) {
+    }
 
-    public void onUpgrade(SQLiteDatabase paramSQLiteDatabase, int paramInt1, int paramInt2) {}
+    public void onUpgrade(SQLiteDatabase paramSQLiteDatabase, int paramInt1, int paramInt2) {
+    }
 
-    public SQLiteDatabase openDataBase()
-    {
+    public SQLiteDatabase openDataBase() {
 
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
 
-        try
-        {
-            if (!localFile.exists()) {CopyDataBaseFromAsset(); }
+        try {
+            if (!localFile.exists()) {
+                CopyDataBaseFromAsset();
+            }
             //the below block commented to addres Favorite table refresh on each application cloing time
             // CopyDataBaseFromAsset();
             return SQLiteDatabase.openDatabase(localFile.getPath(), null, SQLiteDatabase.OPEN_READWRITE);
-        }
-        catch (IOException localIOException)
-        {
+        } catch (IOException localIOException) {
             throw new RuntimeException("Error creating source database", localIOException);
         }
     }
 
-    public String getPraises(String  id)
-    {
+    public String getPraises(String id) {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
         try {
             if (!localFile.exists()) {
@@ -150,18 +142,17 @@ public class DBHelper
         } catch (Exception e) {
             System.out.println("Error in saveBookmark");
         }
-        int number2 = Integer.parseInt(id)-99;
+        int number2 = Integer.parseInt(id) - 99;
         String from = String.valueOf(number2);
         StringBuffer sf = new StringBuffer();
         Cursor localCursor = getReadableDatabase().rawQuery("SELECT id,praise,reference FROM praisesenglishkjvniv where id between " + number2 + " and " + id, null);
         while (localCursor.moveToNext()) {
-            sf.append("\n"+localCursor.getString(0) +".  " + localCursor.getString(1) + "  ( "+ localCursor.getString(2) +" )\n" ) ;
+            sf.append("\n" + localCursor.getString(0) + ".  " + localCursor.getString(1) + "  ( " + localCursor.getString(2) + " )\n");
         }
         return sf.toString();
     }
 
-    public String[] getSongDetails()
-    {
+    public String[] getSongDetails() {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
         try {
             if (!localFile.exists()) {
@@ -172,16 +163,15 @@ public class DBHelper
         }
         ArrayList localArrayList = new ArrayList();
         Cursor localCursor = getReadableDatabase().rawQuery("SELECT TITLE FROM ENGLISHSONGS ORDER BY title", null);
-        int i=1;
+        int i = 1;
         while (localCursor.moveToNext()) {
-            localArrayList.add(i+"."+localCursor.getString(0));
+            localArrayList.add(i + "." + localCursor.getString(0));
             i++;
         }
-        return (String[])localArrayList.toArray(new String[localArrayList.size()]);
+        return (String[]) localArrayList.toArray(new String[localArrayList.size()]);
     }
 
-    public String getLyrics(String title)
-    {
+    public String getLyrics(String title) {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
         try {
             if (!localFile.exists()) {
@@ -193,16 +183,14 @@ public class DBHelper
         Cursor localCursor = getReadableDatabase().rawQuery("Select  title,lyrics from ENGLISHSONGS where title ='" + title + "'", null);
         int i = 0;
         String str = new String();
-        while (localCursor.moveToNext())
-        {
-            str =  localCursor.getString(0) + "\n" +localCursor.getString(1) ;
+        while (localCursor.moveToNext()) {
+            str = localCursor.getString(0) + "\n" + localCursor.getString(1);
         }
         return str;
 
     }
 
-    public ArrayList searchSong(String word)
-    {
+    public ArrayList searchSong(String word) {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
         try {
             if (!localFile.exists()) {
@@ -213,15 +201,14 @@ public class DBHelper
         }
         ArrayList localArrayList = new ArrayList();
         Cursor localCursor = getReadableDatabase().rawQuery("SELECT title FROM ENGLISHSONGS where  " +
-                "title like '%"+word+"%'", null);
+                "title like '%" + word + "%'", null);
         while (localCursor.moveToNext()) {
             localArrayList.add(localCursor.getString(0));
         }
         return localArrayList;
     }
 
-    public String[] getTeluguSongDetails()
-    {
+    public String[] getTeluguSongDetails() {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
         try {
             if (!localFile.exists()) {
@@ -232,16 +219,15 @@ public class DBHelper
         }
         ArrayList localArrayList = new ArrayList();
         Cursor localCursor = getReadableDatabase().rawQuery("SELECT title_telugu,title_eglish FROM telugusongs ORDER BY title_telugu", null);
-        int i=1;
+        int i = 1;
         while (localCursor.moveToNext()) {
-            localArrayList.add(i+"."+localCursor.getString(0)+"#"+localCursor.getString(1));
+            localArrayList.add(i + "." + localCursor.getString(0) + "#" + localCursor.getString(1));
             i++;
         }
-        return (String[])localArrayList.toArray(new String[localArrayList.size()]);
+        return (String[]) localArrayList.toArray(new String[localArrayList.size()]);
     }
 
-    public ArrayList searchTeluguSong(String word)
-    {
+    public ArrayList searchTeluguSong(String word) {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
         try {
             if (!localFile.exists()) {
@@ -252,15 +238,14 @@ public class DBHelper
         }
         ArrayList localArrayList = new ArrayList();
         Cursor localCursor = getReadableDatabase().rawQuery("SELECT title_telugu,title_eglish FROM telugusongs where  " +
-                "(title_telugu like '%"+word+"%' or title_eglish like '%"+word+"%')", null);
+                "(title_telugu like '%" + word + "%' or title_eglish like '%" + word + "%')", null);
         while (localCursor.moveToNext()) {
-            localArrayList.add(localCursor.getString(0)+"#"+localCursor.getString(1));
+            localArrayList.add(localCursor.getString(0) + "#" + localCursor.getString(1));
         }
         return localArrayList;
     }
 
-    public String getTeluguLyrics(String title)
-    {
+    public String getTeluguLyrics(String title) {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
         try {
             if (!localFile.exists()) {
@@ -272,9 +257,8 @@ public class DBHelper
         Cursor localCursor = getReadableDatabase().rawQuery("Select lyrics_telugu,lyrics_english from telugusongs where title_telugu ='" + title + "'", null);
         int i = 0;
         String str = new String();
-        while (localCursor.moveToNext())
-        {
-            str =  localCursor.getString(0) + "\n\n" +localCursor.getString(1) ;
+        while (localCursor.moveToNext()) {
+            str = localCursor.getString(0) + "\n\n" + localCursor.getString(1);
         }
         return str;
 
@@ -356,7 +340,36 @@ public class DBHelper
             getWritableDatabase().insertOrThrow(NOTES_TABLE, null, localContentValues);
             getWritableDatabase().close();
         } catch (Exception exception) {
-          //  Log.i("myTag", "saveNote Exception #  " + exception);
+            //  Log.i("myTag", "saveNote Exception #  " + exception);
+        }
+    }
+
+    public void updateNote(String id, String title, String message) {
+        File localFile = ctx.getDatabasePath(DATABASE_NAME);
+        try {
+            if (!localFile.exists()) {
+                CopyDataBaseFromAsset();
+            }
+        } catch (Exception e) {
+            System.out.println("Error in saveNote");
+        }
+        ArrayList localArrayList = new ArrayList();
+        ContentValues localContentValues = new ContentValues();
+        //localContentValues.put(ID, id);
+        localContentValues.put(NOTES_TITLE, title);
+        localContentValues.put(NOTES_MESSAGE, message);
+        localContentValues.put(DATE, getCurrentDate());
+        String sql = "UPDATE " + NOTES_TABLE + " SET " + "notes_title = " + title + " , notes_message = "
+                + message + " WHERE id=" + id;
+        try {
+            //getWritableDatabase().update(NOTES_TABLE, null, localContentValues);
+            //  getWritableDatabase().insertOrThrow(NOTES_TABLE, null, localContentValues);
+            SQLiteDatabase db = getWritableDatabase();
+            db.update(NOTES_TABLE, localContentValues, "id=" + id, null);
+            //getWritableDatabase().execSQL(sql);
+            getWritableDatabase().close();
+        } catch (Exception exception) {
+            Log.i("myTag", "updateNote #  " + exception);
         }
     }
 
@@ -372,8 +385,8 @@ public class DBHelper
         ArrayList localArrayList = new ArrayList();
         Cursor localCursor = getReadableDatabase().rawQuery("SELECT id,date,notes_title FROM notes order by id desc", null);
         while (localCursor.moveToNext()) {
-            localArrayList.add(localCursor.getString(0) + ". " + localCursor.getString(1)+ "# \n" + localCursor.getString(2));
-           // Log.i("getAllNotes", "getAllNotes #  " +localCursor.getString(0));
+            localArrayList.add(localCursor.getString(0) + ". " + localCursor.getString(1) + "# \n" + localCursor.getString(2));
+            // Log.i("getAllNotes", "getAllNotes #  " +localCursor.getString(0));
         }
         return (String[]) localArrayList.toArray(new String[localArrayList.size()]);
     }
@@ -392,14 +405,36 @@ public class DBHelper
         try {
             Cursor localCursor = getReadableDatabase().rawQuery("Select notes_title,notes_message from notes where id ='" + id + "'", null);
             while (localCursor.moveToNext()) {
-                message = "Title # " +localCursor.getString(0) + "\n Message \n " + localCursor.getString(1);
+                message = "Title # " + localCursor.getString(0) + "\n Message \n " + localCursor.getString(1);
             }
-        }catch(Exception e)
-        {
+        } catch (Exception e) {
             Log.i("myTag", "getNotesById Exception#  " + e);
         }
-        return  message;
+        return message;
     }
+
+    public String getTitleMessageById(String id) {
+        File localFile = ctx.getDatabasePath(DATABASE_NAME);
+        ArrayList localArrayList = new ArrayList();
+        String messageTitle = "";
+        try {
+            if (!localFile.exists()) {
+                CopyDataBaseFromAsset();
+            }
+        } catch (Exception e) {
+            System.out.println("Error in getNotesById");
+        }
+        try {
+            Cursor localCursor = getReadableDatabase().rawQuery("Select notes_title,notes_message from notes where id ='" + id + "'", null);
+            while (localCursor.moveToNext()) {
+                messageTitle = localCursor.getString(0) + "#" + localCursor.getString(1);
+            }
+        } catch (Exception e) {
+            Log.i("myTag", "getTitleMessageById Exception#  " + e);
+        }
+        return messageTitle;
+    }
+
 
     public void deleteNote(String id) {
         File localFile = ctx.getDatabasePath(DATABASE_NAME);
@@ -418,6 +453,7 @@ public class DBHelper
             Log.i("myTag", "deleteNote Exception #  " + exception);
         }
     }
+
     public String getCurrentDate() {
         Date date = new Date();
         SimpleDateFormat formatter = new SimpleDateFormat("MMM-dd-yyyy HH:mm:ss");

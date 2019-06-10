@@ -149,6 +149,13 @@ public class NotesActivity extends AppCompatActivity {
             } catch (Exception e) {
 
             }
+        }if (item.getItemId() == R.id.menu_edit_notes) {
+            try {
+
+                startActivity(new Intent(this, EditNotesActivity.class));
+            } catch (Exception e) {
+
+            }
         }
         return true;
     }

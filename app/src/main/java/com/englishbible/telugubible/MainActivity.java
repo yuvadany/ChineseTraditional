@@ -1,5 +1,7 @@
 package com.englishbible.telugubible;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -63,6 +65,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener, AdapterView.OnItemSelectedListener {
     //  DBHelper dbhelper = new DBHelper(this);
     public int book_number = 1;
+    ClipboardManager myClipboard;
     SharedPreferences sharedpreferences, sharedPreferencesReadMode, englishBiblePrefrences;
     public static final String SHARED_PREF_ENGLISH_BIBLE = "english_bible";
     public static final String BIBLE_ENGLISH = "bible";
@@ -649,6 +652,13 @@ public class MainActivity extends AppCompatActivity
             Toast.makeText(MainActivity.this, "Bookmarked", Toast.LENGTH_LONG).show();
         } else if (item.getItemId() == R.id.notes) {
             startActivity(new Intent(this, NotesActivity.class));
+        }else if (item.getItemId() == R.id.copy) {
+            myClipboard = (ClipboardManager)getSystemService(CLIPBOARD_SERVICE);
+            ClipData copiedVerseClipData;
+            String verse =  verse_selected = book_name + " :" + chapter_number + "\n" + sharedpreferences.getString(SELECTED_VERSE, "Holy");
+            copiedVerseClipData = ClipData.newPlainText("verse", verse);
+            myClipboard.setPrimaryClip(copiedVerseClipData);
+            Toast.makeText(MainActivity.this, "Copied", Toast.LENGTH_SHORT).show();
         }
         return true;
     }

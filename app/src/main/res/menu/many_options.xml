@@ -4,6 +4,8 @@
         android:title="BookMark" />
     <item android:id="@+id/notes"
         android:title="Notes" />
+    <item android:id="@+id/copy"
+        android:title="Copy" />
     <item android:id="@+id/shareVerseMenu"
         android:title="Share" />
 </menu>

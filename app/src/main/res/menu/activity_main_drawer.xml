@@ -4,21 +4,17 @@
     <item android:title="పవిత్ర బైబిల్-Holy Bible">
         <menu>
             <item
-                android:id="@+id/settings"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="Settings" />
-            <item
-                android:id="@+id/noAds"
+                android:id="@+id/bookmark"
                 android:icon="@drawable/ic_menu_send"
-                android:title="App Without Ads" />
+                android:title="Bookmarks" />
             <item
                 android:id="@+id/notes"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Notes" />
             <item
-                android:id="@+id/bookmark"
+                android:id="@+id/noAds"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Bookmarks" />
+                android:title="NO-ADVERTISEMENT-APP" />
             <item
                 android:id="@+id/praises"
                 android:icon="@drawable/ic_menu_send"

@@ -853,9 +853,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(new Intent(this, BookmarkActivity.class));
         } else if (id == R.id.Telugusongs) {
             startActivity(new Intent(this, TeluguSongsActivity.class));
-        } else if (id == R.id.settings) {
-            startActivity(new Intent(this, SettingsActivity.class));
-        } else if (id == R.id.rate) {
+        }  else if (id == R.id.rate) {
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(app_url));
             startActivity(intent);

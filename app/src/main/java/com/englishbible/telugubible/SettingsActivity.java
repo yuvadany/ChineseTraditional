@@ -166,7 +166,8 @@ public class SettingsActivity extends AppCompatActivity {
         editorNightMode.putInt(BACKROUND_COLOUR_VAR, BLACK_COLOUR);
         editorNightMode.putBoolean(SHARED_PREF_NIGHT_DAY_MODE, true);
         editorNightMode.commit();
-        startActivity(new Intent(this, MainActivity.class));
+       // startActivity(new Intent(this, MainActivity.class));
+        reloadMainActivity();
     }
 
 
@@ -177,7 +178,8 @@ public class SettingsActivity extends AppCompatActivity {
         editorNightMode.putInt(BACKROUND_COLOUR_VAR, WHITE_COLOUR);
         editorNightMode.putBoolean(SHARED_PREF_NIGHT_DAY_MODE, false);
         editorNightMode.commit();
-        startActivity(new Intent(this, MainActivity.class));
+        //startActivity(new Intent(this, MainActivity.class));
+        reloadMainActivity();
     }
 
     // back option starts
@@ -191,6 +193,7 @@ public class SettingsActivity extends AppCompatActivity {
 
 
     public void reloadMainActivity() {
-        startActivity(new Intent(this, MainActivity.class));
+      startActivity(new Intent(this, MainActivity.class));
+        //this.finish();
     }
 }

@@ -54,6 +54,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.StringTokenizer;
 
+import com.englishbible.telugubible.DBHelper;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -66,7 +67,7 @@ public class MainActivity extends AppCompatActivity
     //  DBHelper dbhelper = new DBHelper(this);
     public int book_number = 1;
     ClipboardManager myClipboard;
-    SharedPreferences sharedpreferences, sharedPreferencesReadMode, englishBiblePrefrences;
+    SharedPreferences sharedpreferences, sharedPreferencesReadMode, englishBiblePrefrences, lastReadBook, lastReadChapter;
     public static final String SHARED_PREF_ENGLISH_BIBLE = "english_bible";
     public static final String BIBLE_ENGLISH = "bible";
     public static final String kjv_textfiles = "kjv_";
@@ -100,7 +101,7 @@ public class MainActivity extends AppCompatActivity
     String chapter_number = "1";
     String header = "";
     private AdView mAdView;
-    public static final String SHARED_PREF = "Last_Read";
+    public static final String LAST_READ = "Last_Read";
     public static final String BOOK_NUMBER = "book";
     public static final String BOOK_NAME = "book_name";
     public static final String CHAPTER_NUMBER = "chapter";
@@ -385,13 +386,16 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View arg1, int arg2, long arg3) { /* TODO Auto-generated method stub*/
+        lastReadBook = getSharedPreferences(LAST_READ, Context.MODE_PRIVATE);
+        String bookLastRead = lastReadBook.getString(BOOK_NUMBER, "2");
+        String chapterLastRead = lastReadBook.getString(CHAPTER_NUMBER, "2");
+        Toast.makeText(getApplicationContext(), bookLastRead + " "+chapterLastRead, Toast.LENGTH_SHORT).show();
         String sp1 = String.valueOf(book.getSelectedItem());
         String sp2 = String.valueOf(chapter.getSelectedItem());
-        sharedpreferences = getSharedPreferences(SHARED_PREF, Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharedpreferences.edit();
-        editor.putString(BOOK_NUMBER, sp1);
-        editor.putString(CHAPTER_NUMBER, sp2);
-        editor.commit();
+        SharedPreferences.Editor editorlastReadBook = lastReadBook.edit();
+        editorlastReadBook.putString(BOOK_NUMBER, sp1);
+        editorlastReadBook.putString(CHAPTER_NUMBER, sp2);
+        editorlastReadBook.commit();
         switch (parent.getId()) {
             case R.id.books_spinner: {
                 int chapters = getBooksChapter(sp1); /*  verses.setText(sp1);*/
@@ -408,6 +412,7 @@ public class MainActivity extends AppCompatActivity
                 //raw text test starts
                 int num = 5;
                 int id = 8;
+                lastReadBook = getSharedPreferences(LAST_READ, Context.MODE_PRIVATE);
                 id = this.getResources().getIdentifier("na_1_1", "raw", this.getPackageName());
                 InputStream inputStream = getResources().openRawResource(id);
                 ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
@@ -423,8 +428,8 @@ public class MainActivity extends AppCompatActivity
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                sharedpreferences = getSharedPreferences(SHARED_PREF, Context.MODE_PRIVATE);
-                ArrayAdapter praiseArrayAdapter5 = new ArrayAdapter(this, android.R.layout.simple_list_item_1, getVerse(sharedpreferences.getString(BOOK_NUMBER, "1"), checkChaptersCount(sharedpreferences.getString(BOOK_NUMBER, "1"), sharedpreferences.getString(CHAPTER_NUMBER, "1")), "na_")) {
+
+                ArrayAdapter praiseArrayAdapter5 = new ArrayAdapter(this, android.R.layout.simple_list_item_1, getVerse(lastReadBook.getString(BOOK_NUMBER, "1"), checkChaptersCount(lastReadBook.getString(BOOK_NUMBER, "1"), lastReadBook.getString(CHAPTER_NUMBER, "1")), "na_")) {
                     @Override
                     public View getView(int position, View convertView, ViewGroup parent) {
                         /// Get the Item from ListView
@@ -445,8 +450,8 @@ public class MainActivity extends AppCompatActivity
                 // Register the ListView  for Context menu
                 ArrayAdapter praiseArrayAdapter =
                         new ArrayAdapter(this, android.R.layout.simple_list_item_1,
-                                getVerse(sharedpreferences.getString(BOOK_NUMBER, "1"), checkChaptersCount(sharedpreferences.getString(BOOK_NUMBER, "1"),
-                                        sharedpreferences.getString(CHAPTER_NUMBER, "1")), englishBible_file)) {
+                                getVerse(lastReadBook.getString(BOOK_NUMBER, "1"), checkChaptersCount(lastReadBook.getString(BOOK_NUMBER, "1"),
+                                        lastReadBook.getString(CHAPTER_NUMBER, "1")), englishBible_file)) {
                             @Override
                             public View getView(int position, View convertView, ViewGroup parent) {
                                 /// Get the Item from ListView
@@ -507,7 +512,7 @@ public class MainActivity extends AppCompatActivity
                 break;
             }
             case R.id.chapters_spinner: {
-                sharedpreferences = getSharedPreferences(SHARED_PREF, Context.MODE_PRIVATE);
+                lastReadBook = getSharedPreferences(LAST_READ, Context.MODE_PRIVATE);
                 String file = "na_" + getBook_number(sp1) + "_" + Integer.parseInt(sp2);
                 String hindi_verse = "test ";
                 int id = 1;
@@ -549,7 +554,7 @@ public class MainActivity extends AppCompatActivity
                 //String enlish_verses = dbhelper.getVerses("eng_bible", getBooks(sp1),Integer.parseInt(sp2));
                 // english_verses.setText(enlish_verses);
                 String enlish_verse = "Not Found";
-                ArrayAdapter praiseArrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, getVerse(sp1, checkChaptersCount(sharedpreferences.getString(BOOK_NUMBER, "1"), sharedpreferences.getString(CHAPTER_NUMBER, "1")), englishBible_file)) {
+                ArrayAdapter praiseArrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, getVerse(sp1, checkChaptersCount(lastReadBook.getString(BOOK_NUMBER, "1"), lastReadBook.getString(CHAPTER_NUMBER, "1")), englishBible_file)) {
                     @Override
                     public View getView(int position, View convertView, ViewGroup parent) {
                         /// Get the Item from ListView

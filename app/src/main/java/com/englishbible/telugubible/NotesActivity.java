@@ -33,7 +33,7 @@ public class NotesActivity extends AppCompatActivity {
     PopupWindow popupWindow;
     LinearLayout linearLayout1;
     private TextView notes_text_popup;
-    DBHelper dbhelper = new DBHelper(this);
+    DBHelperTrans dbhelper = new DBHelperTrans(this);
     ListView notesListView;
     String[] notesArray = {"No  Bookmark found"};
     SharedPreferences sharedpreferences, sharedPreferencesReadMode;

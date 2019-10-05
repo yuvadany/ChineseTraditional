@@ -128,18 +128,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-        // Popup Verse Starts
         verseToday = "Amen";
-        /*sharedpreferences = getSharedPreferences(SHARED_PREF_FONT_SIZE, Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharedpreferences.edit();
-        editor.putFloat(TEXT_FONT_SIZE_VAR, TEXT_FONT_SIZE);
-        editor.commit();*/
-        /*sharedPreferencesReadMode = getSharedPreferences(SHARED_PREF_NIGHT_DAY_MODE, Context.MODE_PRIVATE);
-        SharedPreferences.Editor editorReadMode = sharedPreferencesReadMode.edit();
-        editorReadMode.putInt(TEXT_COLOUR_VAR, TEXT_COLOUR);
-        editorReadMode.putInt(BACKROUND_COLOUR_VAR, BACKROUND_COLOUR);
-        editorReadMode.commit();*/
         Calendar cal = Calendar.getInstance();
         int doy = cal.get(Calendar.DAY_OF_YEAR);
         LayoutInflater layoutInflater = (LayoutInflater) MainActivity.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -165,6 +154,13 @@ public class MainActivity extends AppCompatActivity
         //book spinner ends
         book.setOnItemSelectedListener(this);
         chapter.setOnItemSelectedListener(this);
+       // book.setAdapter();
+       /* book.setSelected(false);  // must
+        book.setSelection(0,true);  //must
+        book.setOnItemSelectedListener(this);
+        chapter.setSelected(false);  // must
+        chapter.setSelection(0,true);  //must
+        chapter.setOnItemSelectedListener(this);*/
         fabShare = (FloatingActionButton) findViewById(R.id.share);
         fabShare.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -273,63 +269,6 @@ public class MainActivity extends AppCompatActivity
         registerForContextMenu(singleList);
         registerForContextMenu(englishList);
         registerForContextMenu(hindiList);
-
-       /* singleList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                book_name = String.valueOf(book.getSelectedItem());
-                chapter_number = String.valueOf(chapter.getSelectedItem());
-                verse_selected = book_name + " :" + chapter_number + "\n" + ((TextView) view).getText().toString();
-                header = "Share " + book_name + " " + chapter_number + "'s verse via";
-                try {
-                    Intent localIntent2 = new Intent("android.intent.action.SEND");
-                    localIntent2.setType("text/plain");
-                    localIntent2.putExtra("android.intent.extra.SUBJECT", "Word #");
-                    localIntent2.putExtra("android.intent.extra.TEXT", verse_selected);
-                    startActivity(Intent.createChooser(localIntent2, header));
-                } catch (Exception e) {
-
-                }
-            }
-        });
-
-        englishList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                book_name = String.valueOf(book.getSelectedItem());
-                chapter_number = String.valueOf(chapter.getSelectedItem());
-                verse_selected = book_name + " :" + chapter_number + "\n" + ((TextView) view).getText().toString();
-                header = "Share " + book_name + " " + chapter_number + "'s verse via";
-                try {
-                    Intent localIntent2 = new Intent("android.intent.action.SEND");
-                    localIntent2.setType("text/plain");
-                    localIntent2.putExtra("android.intent.extra.SUBJECT", "Word #");
-                    localIntent2.putExtra("android.intent.extra.TEXT", verse_selected);
-                    startActivity(Intent.createChooser(localIntent2, header));
-                } catch (Exception e) {
-
-                }
-            }
-        });
-
-        hindiList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                book_name = String.valueOf(book.getSelectedItem());
-                chapter_number = String.valueOf(chapter.getSelectedItem());
-                verse_selected = book_name + " :" + chapter_number + "\n" + ((TextView) view).getText().toString();
-                header = "Share " + book_name + " " + chapter_number + "'s verse via";
-                try {
-                    Intent localIntent2 = new Intent("android.intent.action.SEND");
-                    localIntent2.setType("text/plain");
-                    localIntent2.putExtra("android.intent.extra.SUBJECT", "Word  #");
-                    localIntent2.putExtra("android.intent.extra.TEXT", verse_selected);
-                    startActivity(Intent.createChooser(localIntent2, header));
-                } catch (Exception e) {
-
-                }
-            }
-        });*/
         mAdView = (AdView) findViewById(R.id.adView);
         mAdView.setAdListener(new AdListener() {
             @Override
@@ -387,9 +326,9 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onItemSelected(AdapterView<?> parent, View arg1, int arg2, long arg3) { /* TODO Auto-generated method stub*/
         lastReadBook = getSharedPreferences(LAST_READ, Context.MODE_PRIVATE);
-        String bookLastRead = lastReadBook.getString(BOOK_NUMBER, "2");
-        String chapterLastRead = lastReadBook.getString(CHAPTER_NUMBER, "2");
-        Toast.makeText(getApplicationContext(), bookLastRead + " "+chapterLastRead, Toast.LENGTH_SHORT).show();
+        String bookLastRead = lastReadBook.getString(BOOK_NUMBER, "na");
+        String chapterLastRead = lastReadBook.getString(CHAPTER_NUMBER, "na");
+    //    Toast.makeText(getApplicationContext(), bookLastRead + " "+chapterLastRead, Toast.LENGTH_SHORT).show();
         String sp1 = String.valueOf(book.getSelectedItem());
         String sp2 = String.valueOf(chapter.getSelectedItem());
         SharedPreferences.Editor editorlastReadBook = lastReadBook.edit();
@@ -416,25 +355,11 @@ public class MainActivity extends AppCompatActivity
                 id = this.getResources().getIdentifier("na_1_1", "raw", this.getPackageName());
                 InputStream inputStream = getResources().openRawResource(id);
                 ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-                int in;
-                try {
-                    in = inputStream.read();
-                    while (in != -1) {
-                        byteArrayOutputStream.write(in);
-                        in = inputStream.read();
-                    }
-                    inputStream.close();
-                    hindi_verse = byteArrayOutputStream.toString();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-
                 ArrayAdapter praiseArrayAdapter5 = new ArrayAdapter(this, android.R.layout.simple_list_item_1, getVerse(lastReadBook.getString(BOOK_NUMBER, "1"), checkChaptersCount(lastReadBook.getString(BOOK_NUMBER, "1"), lastReadBook.getString(CHAPTER_NUMBER, "1")), "na_")) {
                     @Override
                     public View getView(int position, View convertView, ViewGroup parent) {
                         /// Get the Item from ListView
                         View view = super.getView(position, convertView, parent);
-
                         TextView tv = (TextView) view.findViewById(android.R.id.text1);
                         sharedpreferences = getSharedPreferences(SHARED_PREF_FONT_SIZE, Context.MODE_PRIVATE);
                         sharedPreferencesReadMode = getSharedPreferences(SHARED_PREF_NIGHT_DAY_MODE, Context.MODE_PRIVATE);
@@ -456,7 +381,6 @@ public class MainActivity extends AppCompatActivity
                             public View getView(int position, View convertView, ViewGroup parent) {
                                 /// Get the Item from ListView
                                 View view = super.getView(position, convertView, parent);
-
                                 TextView tv = (TextView) view.findViewById(android.R.id.text1);
                                 sharedpreferences = getSharedPreferences(SHARED_PREF_FONT_SIZE, Context.MODE_PRIVATE);
                                 sharedPreferencesReadMode = getSharedPreferences(SHARED_PREF_NIGHT_DAY_MODE, Context.MODE_PRIVATE);
@@ -653,7 +577,8 @@ public class MainActivity extends AppCompatActivity
             } catch (Exception e) {
             }
         } else if (item.getItemId() == R.id.bookmark) {
-            dbhelper.saveBookmark(sharedpreferences.getString(BOOK_NAME, "Genesis") + sharedpreferences.getString(CHAPTER_NUMBER_BOOKMARK, "1") + " : " + sharedpreferences.getString(SELECTED_VERSE, "Holy"));
+            DBHelperTrans dbhelperTrans = new DBHelperTrans(this);
+            dbhelperTrans.saveBookmark(sharedpreferences.getString(BOOK_NAME, "Genesis") + sharedpreferences.getString(CHAPTER_NUMBER_BOOKMARK, "1") + " : " + sharedpreferences.getString(SELECTED_VERSE, "Holy"));
             Toast.makeText(MainActivity.this, "Bookmarked", Toast.LENGTH_LONG).show();
         } else if (item.getItemId() == R.id.notes) {
             startActivity(new Intent(this, NotesActivity.class));

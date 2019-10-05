@@ -23,7 +23,7 @@ import com.google.android.gms.ads.AdView;
 
 public class BookmarkActivity extends AppCompatActivity {
     private AdView mAdView;
-    DBHelper dbhelper = new DBHelper(this);
+    DBHelperTrans dbhelper = new DBHelperTrans(this);
     String[] arrayOfString= { "No  Bookmark found" };
     ArrayAdapter localArrayAdapter;
     public static final String SHARED_PREF_BOOKMARK = "Book_Mark";

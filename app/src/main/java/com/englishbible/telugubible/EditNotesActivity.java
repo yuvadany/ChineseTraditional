@@ -19,7 +19,7 @@ public class EditNotesActivity extends AppCompatActivity {
     public static final String SELECTED_NOTES = "Selected_Notes";
     public static final String NOTES_DELETED = "Notes deleted";
     EditText titleEdit, messageEdit;
-    DBHelper dbhelper = new DBHelper(this);
+    DBHelperTrans dbhelper = new DBHelperTrans(this);
     TextView id;
     StringTokenizer token, title, message;
     String titleMessage = "message";

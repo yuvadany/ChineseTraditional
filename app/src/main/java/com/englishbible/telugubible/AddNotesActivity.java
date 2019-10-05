@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class AddNotesActivity extends AppCompatActivity {
     Button save;
-    DBHelper dbhelper = new DBHelper(this);
+    DBHelperTrans dbhelper = new DBHelperTrans(this);
     String title = "holy";
     String message = "message";
     EditText titleEdit, messageEdit;

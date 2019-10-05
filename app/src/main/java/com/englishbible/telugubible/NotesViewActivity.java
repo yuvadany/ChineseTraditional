@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class NotesViewActivity extends AppCompatActivity {
     TextView titleMessage;
-    DBHelper dbhelper = new DBHelper(this);
+    DBHelperTrans dbhelper = new DBHelperTrans(this);
     public static final String SHARED_PREF_NOTES = "notes_preference";
     public static final String SELECTED_NOTES = "Selected_Notes";
     SharedPreferences sharedpreferences,sharedPreferencesFont,sharedPreferencesReadMode;

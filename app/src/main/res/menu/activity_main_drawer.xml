@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="పవిత్ర బైబిల్-Holy Bible">
+    <item android:title="@string/app_name">
         <menu>
             <item
                 android:id="@+id/bookmark"
@@ -26,7 +26,7 @@
 			<item
                 android:id="@+id/Telugusongs"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Telugu Songs(1100+)"  />
+                android:title="Telugu Songs(1280+)"  />
             <item
                 android:id="@+id/songs"
                 android:icon="@drawable/ic_menu_send"

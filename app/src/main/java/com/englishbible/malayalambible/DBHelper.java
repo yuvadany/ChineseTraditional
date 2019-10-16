@@ -1,4 +1,4 @@
-package com.englishbible.telugubible;
+package com.englishbible.malayalambible;
 
 /**
  * Created by user on 5/15/2018.
@@ -20,9 +20,9 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class DBHelperTrans
+public class DBHelper
         extends SQLiteOpenHelper {
-    private static final String DATABASE_NAME = "TeluguEnglish5oct2019Adstrans.sqlite";
+    private static final String DATABASE_NAME = "MalayalamEnglish17oct2019Ads.sqlite";
     private static final int DATABASE_VERSION = 1;
     private static final String DB_PATH_SUFFIX = "/databases/";
     private static final String DATE = "date";
@@ -33,7 +33,7 @@ public class DBHelperTrans
     static Context ctx;
     Bundle bundle = new Bundle();
 
-    public DBHelperTrans(Context paramContext) {
+    public DBHelper(Context paramContext) {
         super(paramContext, DATABASE_NAME, null, 1);
         ctx = paramContext;
     }
@@ -218,7 +218,7 @@ public class DBHelperTrans
             System.out.println("Error in saveBookmark");
         }
         ArrayList localArrayList = new ArrayList();
-        Cursor localCursor = getReadableDatabase().rawQuery("SELECT title_telugu,title_eglish FROM telugusongs ORDER BY title_telugu", null);
+        Cursor localCursor = getReadableDatabase().rawQuery("SELECT title_telugu,title_eglish FROM telugusongs ORDER BY title_eglish", null);
         int i = 1;
         while (localCursor.moveToNext()) {
             localArrayList.add(i + "." + localCursor.getString(0) + "#" + localCursor.getString(1));
@@ -274,7 +274,7 @@ public class DBHelperTrans
         } catch (Exception e) {
             System.out.println("Error in saveBookmark");
         }
-        Log.i("myTag", "This is my message word -- Trans " + word);
+        Log.i("myTag", "This is my message word" + word);
         ArrayList localArrayList = new ArrayList();
         ContentValues localContentValues = new ContentValues();
         localContentValues.put("verse", word);

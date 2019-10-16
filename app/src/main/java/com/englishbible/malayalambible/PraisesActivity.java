@@ -1,4 +1,4 @@
-package com.englishbible.telugubible;
+package com.englishbible.malayalambible;
 
 import android.content.Context;
 import android.content.SharedPreferences;

@@ -112,12 +112,12 @@ public class MainActivity extends AppCompatActivity
     public static final String BACKROUND_COLOUR_VAR = "Background_Colour_Var";
     public static final int BLACK_COLOUR = Color.parseColor("#000000");
     public static final int WHITE_COLOUR = Color.parseColor("#f2f2f2");
-    public static final String app_url = "https://play.google.com/store/apps/details?id=com.englishbible.telugubible";
+    public static final String app_url = "https://play.google.com/store/apps/details?id=com.englishbible.malayalambible";
     public static final String developer_id = "https://play.google.com/store/apps/developer?id=YUVARAJ+PALANISAMY";
-    public static final String extraSubject = "The Holy Bible Telugu & English Bible Parallel";
-    public static final String extraText = "\nHi,\n Check on this Holy Bible Telugu & English Parallel App\n\n" + app_url + " \n\n";
-    public static final String bibleShare = "Telugu & English Bible Share";
-    public static final String pay_app_url = "https://play.google.com/store/apps/details?id=noads.englishbible.telugubible";
+    public static final String extraSubject = "The Holy Bible Malayalam & English Bible Parallel";
+    public static final String extraText = "\nHi,\n Check on this Holy Bible Malayalam & English Parallel App\n\n" + app_url + " \n\n";
+    public static final String bibleShare = "Malayalam & English Bible Share";
+    public static final String pay_app_url = "https://play.google.com/store/apps/details?id=noads.englishbible.malayalambible";
 
 
     @Override
@@ -777,8 +777,6 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.bookmark) {
             startActivity(new Intent(this, BookmarkActivity.class));
-        } else if (id == R.id.Telugusongs) {
-            startActivity(new Intent(this, TeluguSongsActivity.class));
         }  else if (id == R.id.rate) {
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(app_url));

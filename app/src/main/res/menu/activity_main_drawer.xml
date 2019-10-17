@@ -23,10 +23,6 @@
                 android:id="@+id/vod"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Today's Verse "  />
-			<item
-                android:id="@+id/Telugusongs"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Telugu Songs(1280+)"  />
             <item
                 android:id="@+id/songs"
                 android:icon="@drawable/ic_menu_send"

@@ -12,6 +12,10 @@
                 android:icon="@drawable/ic_menu_send"
                 android:title="Bookmarks" />
             <item
+                android:id="@+id/addnotes"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Add Notes" />
+            <item
                 android:id="@+id/notes"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Notes" />

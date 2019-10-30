@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.englishbible.serbianbible">
+    package="com.englishbible.croatianbible">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,22 +10,22 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.englishbible.serbianbible.EditNotesActivity"
+        <activity android:name="com.englishbible.croatianbible.EditNotesActivity"
             android:label="Update Notes"></activity>
         <activity
-            android:name="com.englishbible.serbianbible.NotesViewActivity"
+            android:name="com.englishbible.croatianbible.NotesViewActivity"
             android:label="View Notes" />
         <activity
-            android:name="com.englishbible.serbianbible.AddNotesActivity"
+            android:name="com.englishbible.croatianbible.AddNotesActivity"
             android:label="Add Notes" />
         <activity
-            android:name="com.englishbible.serbianbible.NotesActivity"
+            android:name="com.englishbible.croatianbible.NotesActivity"
             android:label="Notes" />
-        <activity android:name="com.englishbible.serbianbible.TeluguSongsActivity" />
-        <activity android:name="com.englishbible.serbianbible.SettingsActivity" />
-        <activity android:name="com.englishbible.serbianbible.BookmarkActivity" />
+        <activity android:name="com.englishbible.croatianbible.TeluguSongsActivity" />
+        <activity android:name="com.englishbible.croatianbible.SettingsActivity" />
+        <activity android:name="com.englishbible.croatianbible.BookmarkActivity" />
         <activity
-            android:name="com.englishbible.serbianbible.MainActivity"
+            android:name="com.englishbible.croatianbible.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -34,9 +34,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.englishbible.serbianbible.PraisesActivity" />
-        <activity android:name="com.englishbible.serbianbible.LyricsActivity" />
-        <activity android:name="com.englishbible.serbianbible.SongsActivity" />
+        <activity android:name="com.englishbible.croatianbible.PraisesActivity" />
+        <activity android:name="com.englishbible.croatianbible.LyricsActivity" />
+        <activity android:name="com.englishbible.croatianbible.SongsActivity" />
     </application>
 
 </manifest>

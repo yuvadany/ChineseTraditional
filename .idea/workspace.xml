@@ -10,20 +10,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20324bab-8fd6-41a8-a6e2-52d5b1a08684" name="Default Changelist" comment="Serbian Text Files added">
+      <change afterPath="$PROJECT_DIR$/ChineseBibleMandarin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CroatianBible.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/CroatianEnglish30oct2019Ads.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/ChineseManEnglish06nov2019Ads.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/CroatianEnglish30oct2019Adstrans.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/ChineseManEnglish06nov2019adstrans.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/AddNotesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/AddNotesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/BookmarkActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/BookmarkActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/BooksChapters.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/BooksChapters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/DBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/DBHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/DBHelperTrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/DBHelperTrans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/EditNotesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/EditNotesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/LyricsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/LyricsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/NotesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/NotesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/NotesViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/NotesViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/PraisesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/PraisesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/SettingsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/SettingsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/SongsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/SongsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/TeluguSongsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/TeluguSongsActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_bookmark.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_bookmark.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_lyrics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_lyrics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_notes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_notes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
@@ -39,6 +68,1196 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_10_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_11_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_12_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_13_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_14_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_15_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_15_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_15_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_15_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_15_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_15_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_15_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_15_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_15_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_15_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_16_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_16_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_16_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_16_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_16_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_16_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_16_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_16_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_16_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_16_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_16_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_16_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_16_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_17_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_17_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_17_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_17_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_17_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_17_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_17_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_17_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_17_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_17_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_18_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_103.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_104.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_107.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_108.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_109.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_111.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_112.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_113.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_114.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_116.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_117.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_118.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_119.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_120.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_121.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_122.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_123.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_124.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_125.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_126.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_127.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_128.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_129.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_132.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_133.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_134.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_135.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_136.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_137.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_138.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_139.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_140.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_141.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_142.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_143.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_144.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_145.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_146.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_147.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_148.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_149.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_150.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_66.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_68.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_69.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_70.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_72.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_73.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_74.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_75.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_76.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_77.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_78.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_79.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_80.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_81.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_82.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_83.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_84.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_85.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_86.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_87.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_88.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_89.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_90.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_91.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_92.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_93.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_94.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_95.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_96.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_97.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_98.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_19_99.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_1_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_20_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_21_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_21_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_21_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_21_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_21_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_21_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_21_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_21_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_21_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_21_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_21_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_21_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_22_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_22_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_22_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_22_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_22_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_22_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_22_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_22_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_53.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_54.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_56.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_57.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_58.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_59.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_62.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_63.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_64.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_66.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_23_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_49.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_51.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_52.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_24_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_25_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_25_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_25_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_25_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_25_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_41.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_45.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_47.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_26_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_27_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_27_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_27_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_27_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_27_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_27_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_27_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_27_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_27_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_27_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_27_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_27_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_28_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_29_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_29_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_29_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_37.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_2_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_30_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_30_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_30_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_30_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_30_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_30_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_30_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_30_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_30_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_31_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_32_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_32_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_32_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_32_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_33_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_33_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_33_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_33_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_33_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_33_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_33_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_34_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_34_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_34_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_35_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_35_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_35_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_36_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_36_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_36_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_37_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_37_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_38_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_39_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_39_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_39_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_39_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_3_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_40_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_41_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_42_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_43_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_44_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_45_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_46_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_47_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_47_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_47_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_47_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_47_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_47_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_47_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_47_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_47_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_47_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_47_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_47_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_47_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_48_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_48_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_48_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_48_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_48_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_48_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_49_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_49_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_49_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_49_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_49_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_49_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_35.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_4_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_50_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_50_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_50_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_50_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_51_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_51_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_51_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_51_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_52_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_52_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_52_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_52_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_52_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_53_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_53_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_53_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_54_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_54_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_54_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_54_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_54_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_54_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_55_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_55_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_55_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_55_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_56_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_56_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_56_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_57_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_58_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_58_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_58_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_58_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_58_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_58_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_58_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_58_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_58_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_58_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_58_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_58_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_58_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_59_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_59_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_59_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_59_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_59_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_33.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_5_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_60_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_60_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_60_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_60_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_60_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_61_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_61_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_61_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_62_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_62_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_62_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_62_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_62_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_63_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_64_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_65_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_66_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_6_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_7_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_8_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_8_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_8_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_8_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_22.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_26.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_29.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_31.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/cro_9_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,8 +1307,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Editor</find>
-      <find>sharedpreferences</find>
       <find>reloadMainActivity</find>
       <find>back</find>
       <find>switch</find>
@@ -118,6 +1335,8 @@
       <find>mgk_</find>
       <find>.noads</find>
       <find>ser_</find>
+      <find>.bible.englishbible.croatianbible</find>
+      <find>cro_</find>
     </findStrings>
     <replaceStrings>
       <replace>lug_</replace>
@@ -131,6 +1350,7 @@
       <replace>mgk_</replace>
       <replace>ser_</replace>
       <replace>cro_</replace>
+      <replace>mand_</replace>
     </replaceStrings>
   </component>
   <component name="GenerateSignedApkSettings">
@@ -146,18 +1366,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_lyrics.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/rectangle_box.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_notes.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/notes_menu.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/notes_popup.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_notes_view.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_notes.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_notes.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/BookmarkActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/telugubible/NotesActivity.java" />
@@ -187,16 +1395,28 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/serbianbible/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/serbianbible/SongsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/serbianbible/TeluguSongsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/serbianbible/BooksChapters.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/serbianbible/MainActivity.java" />
         <option value="$PROJECT_DIR$/../SerbianBible/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/BooksChapters.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/MainActivity.java" />
+        <option value="$PROJECT_DIR$/../CroatianBible/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/AddNotesActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/BookmarkActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/EditNotesActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/LyricsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/NotesActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/NotesViewActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/PraisesActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/SettingsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/SongsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/TeluguSongsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -213,15 +1433,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
-              <item name="CroatianBible" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="CroatianBible" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ChineseBibleMandarin" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
@@ -230,7 +1447,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,7 +1458,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="Android_8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="sync.plugin.last.upgrade.timestamp" value="1556683425117" />
   </component>
@@ -387,10 +1603,10 @@
       <window_info id="Image Layers" order="1" />
       <window_info id="Favorites" order="2" sideWeight="0.4020443" side_tool="true" weight="0.21208054" />
       <window_info id="Designer" order="3" />
-      <window_info id="Build Variants" order="4" sideWeight="0.42857143" side_tool="true" visible="true" weight="0.1704698" />
+      <window_info active="true" id="Build Variants" order="4" sideWeight="0.43052837" side_tool="true" visible="true" weight="0.1704698" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Resources Explorer" order="6" weight="0.32980332" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.5714286" visible="true" weight="0.1704698" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.5694716" visible="true" weight="0.1704698" />
       <window_info id="Captures" order="8" sideWeight="0.4009009" side_tool="true" weight="0.21255673" />
       <window_info anchor="bottom" id="Find" order="0" weight="0.329429" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.11713031" />
@@ -485,9 +1701,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Serbian Text Files added" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/greekbible/SongsActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/greekbible/SettingsActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
@@ -588,12 +1801,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../GreekModern/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../GreekModern/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -602,14 +1815,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/BookmarkActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/DBHelper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
@@ -619,72 +1825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/DBHelperTrans.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/DBHelperTrans.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/EditNotesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/LyricsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/NotesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/NotesViewActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/PraisesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/SettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/SongsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/TeluguSongsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-808">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,10 +1865,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../CroatianBible/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/AddNotesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/BookmarkActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/EditNotesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/LyricsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/NotesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/NotesViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/PraisesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/SongsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/TeluguSongsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -735,48 +1971,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/AddNotesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+        <state relative-caret-position="306">
+          <caret line="123" column="43" lean-forward="true" selection-start-line="123" selection-start-column="43" selection-end-line="123" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/BooksChapters.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/bible/englishbible/chinesebible/BooksChapters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="e#2923#2939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/englishbible/croatianbible/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9158">
-          <caret line="874" column="28" selection-start-line="874" selection-start-column="28" selection-end-line="874" selection-end-column="28" />
-          <folding>
-            <element signature="e#42738#42781#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="-2090">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="bible.englishbible.chinesebible">
+    package="com.englishbible.chinesebible">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,22 +10,22 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="bible.englishbible.chinesebible.EditNotesActivity"
+        <activity android:name="com.englishbible.chinesebible.EditNotesActivity"
             android:label="Update Notes"></activity>
         <activity
-            android:name="bible.englishbible.chinesebible.NotesViewActivity"
+            android:name="com.englishbible.chinesebible.NotesViewActivity"
             android:label="View Notes" />
         <activity
-            android:name="bible.englishbible.chinesebible.AddNotesActivity"
+            android:name="com.englishbible.chinesebible.AddNotesActivity"
             android:label="Add Notes" />
         <activity
-            android:name="bible.englishbible.chinesebible.NotesActivity"
+            android:name="com.englishbible.chinesebible.NotesActivity"
             android:label="Notes" />
-        <activity android:name="bible.englishbible.chinesebible.TeluguSongsActivity" />
-        <activity android:name="bible.englishbible.chinesebible.SettingsActivity" />
-        <activity android:name="bible.englishbible.chinesebible.BookmarkActivity" />
+        <activity android:name="com.englishbible.chinesebible.TeluguSongsActivity" />
+        <activity android:name="com.englishbible.chinesebible.SettingsActivity" />
+        <activity android:name="com.englishbible.chinesebible.BookmarkActivity" />
         <activity
-            android:name="bible.englishbible.chinesebible.MainActivity"
+            android:name="com.englishbible.chinesebible.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -34,9 +34,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="bible.englishbible.chinesebible.PraisesActivity" />
-        <activity android:name="bible.englishbible.chinesebible.LyricsActivity" />
-        <activity android:name="bible.englishbible.chinesebible.SongsActivity" />
+        <activity android:name="com.englishbible.chinesebible.PraisesActivity" />
+        <activity android:name="com.englishbible.chinesebible.LyricsActivity" />
+        <activity android:name="com.englishbible.chinesebible.SongsActivity" />
     </application>
 
 </manifest>

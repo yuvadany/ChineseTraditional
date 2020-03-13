@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">圣经-BIBLE</string>
+    <string name="app_name">聖經-BIBLE</string>
     <string name="action_settings">Settings</string>
     <string name="test">In the beginning</string>
     <string name="test2">"CHAPTER 1
@@ -14,19 +14,10 @@
         <item>"4"</item>
     </string-array>
     <string-array name="list">
-        <item>1-100</item>
-        <item>101-200</item>
-        <item>201-300</item>
-        <item>301-400</item>
-        <item>401-500</item>
-        <item>501-600</item>
-        <item>601-700</item>
-        <item>701-800</item>
-        <item>801-900</item>
-        <item>901-1000</item>
+        <item>1-1000</item>
     </string-array>
     <string name="title_activity_main2">Praises </string>
-    <string name="banner_home_footer">ca-app-pub-8821114814067767/3699604493</string>
+    <string name="banner_home_footer">ca-app-pub-8821114814067767/7240305742</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="AboveAll">Above all powers, above all kings</string>

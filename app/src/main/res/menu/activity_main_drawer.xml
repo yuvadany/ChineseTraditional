@@ -20,10 +20,6 @@
                 android:icon="@drawable/ic_menu_send"
                 android:title="Notes" />
             <item
-                android:id="@+id/noAds"
-                android:icon="@drawable/ic_menu_send"
-                android:title="NO-ADVERTISEMENT-APP" />
-            <item
                 android:id="@+id/praises"
                 android:icon="@drawable/ic_menu_send"
                 android:title="1000 Praises English"  />
